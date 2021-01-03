@@ -1,0 +1,32 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: test_app
+  username: postgres
+  password: pg1234
+  pool: 5
+  timeout: 5000
+
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: test_app
+  username: postgres
+  password: pg1234
+  pool: 5
+  timeout: 5000
+
+
+production:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: test_app
+  username: postgres
+  password: pg1234
+  pool: 5
+  timeout: 5000
+  
